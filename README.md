@@ -1,7 +1,7 @@
 # Outreach Research Agent
 
 
-#LIVE APP -  outreach-research-agent.streamlit.app
+**Live app:** [Open the Outreach Research Agent](https://outreach-research-agent.streamlit.app/)
 
 A Streamlit app that researches a prospect, verifies claims against evidence, and creates an outreach draft for human review. It does not send emails.
 
@@ -12,7 +12,7 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-Enter a Gemini API key in the app's sidebar to enable AI-assisted analysis and drafting. The key can also be provided through the `GEMINI_API_KEY` environment variable. The model can be changed with `GEMINI_MODEL`.
+Enter a Gemini API key in the app's sidebar to enable AI-assisted analysis and drafting. The key can also be provided through the `GEMINI_API_KEY` environment variable. The default model is `gemini-3.5-flash-lite`; it can be changed with `GEMINI_MODEL`.
 
 ## Deploy with Streamlit Community Cloud
 

@@ -65,7 +65,7 @@ def _get_many(urls, headers, connect_read_timeout=6, hard_wall_timeout=10):
     return out
 
 
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MIN_INTERVAL = 6.5          # free tier is ~10 requests/min; stay under it
 SCORE_THRESHOLD = 5.5       # below this, a news signal is not worth personalising on
