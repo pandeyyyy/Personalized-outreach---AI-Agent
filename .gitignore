@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+out/
+.env
+.streamlit/secrets.toml
+dbg_check.py
+test_tabs.py
